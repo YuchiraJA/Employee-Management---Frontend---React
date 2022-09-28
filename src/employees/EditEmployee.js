@@ -54,6 +54,7 @@ export default function EditEmployee() {
                 name="name"
                 value={name}
                 onChange={(e) => onInputChange(e)}
+                required 
               />
             </div>
             <div className="mb-3">
@@ -67,6 +68,7 @@ export default function EditEmployee() {
                 name="address"
                 value={address}
                 onChange={(e) => onInputChange(e)}
+                required
               />
             </div>
             <div className="mb-3">
@@ -80,6 +82,7 @@ export default function EditEmployee() {
                 name="email"
                 value={email}
                 onChange={(e) => onInputChange(e)}
+                required
               />
             </div>
             <div className="mb-3">
@@ -93,6 +96,7 @@ export default function EditEmployee() {
                 name="email"
                 value={pnumber}
                 onChange={(e) => onInputChange(e)}
+                required
               />
             </div>
             <button type="submit" className="btn btn-outline-primary">
